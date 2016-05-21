@@ -39,3 +39,5 @@ Despite its simplicity, small size, low cost, long battery life, and high sensit
 
 In conditions where there is low ambient light this is not a major problem, and in areas of greater illumination the issue can be mitigated by placing a shroud around the IR detector to prevent direct contact with unwated light. IR filters can also be used to reduce interference from unwanted light sources, but bear in mind that some bright light sources (e.g., the sun!) emit IR radiation as well.
 
+IRis is still able to detect IR transmissions in the presence of bright ambient light, but at a much reduced distance.
+
