@@ -6,7 +6,7 @@ IRis is a low power, low cost, high sensitivity infrared detector designed for c
 Why?
 ====
 
-Typical [IR](https://www.sparkfun.com/products/10266) [receivers](http://dangerousprototypes.com/docs/USB_IR_Toy_v2) are designed to work with common IR remote controls, and as such expect the received data to be [modulated at 38kHz](http://www.vishay.com/docs/80071/dataform.pdf). Because of this, there is so much more the world of IR that these receivers simply cannot detect!
+Typical [IR](https://www.sparkfun.com/products/10266) [receivers](http://dangerousprototypes.com/docs/USB_IR_Toy_v2) are designed to work with common IR remote controls, and as such expect the received data to be [modulated at 38kHz](http://www.vishay.com/docs/80071/dataform.pdf). Because of this, there is so much more to the world of IR that these receivers simply cannot detect!
 
 In contrast, IRis was designed to be a simple, general purpose IR detector to aid in the capture and analysis of raw IR transmissions from a variety of sources, such as:
 
