@@ -35,7 +35,7 @@ PCBs (1.24 inches in diameter) are available from [OSHPark](https://oshpark.com/
 What's The Catch?
 =================
 
-Despite its simplicity, small size, low cost, long battery life, and high sensitivity, IRis suffers from limited [dynamic range](https://en.wikipedia.org/wiki/Dynamic_range). This is an inherent by-product of its high sensitivity, and simply means that it can easily be overloaded by strong, unwanted, light sources.
+Despite its simplicity, small size, low cost, long battery life, and high sensitivity, IRis suffers from limited [dynamic range](https://en.wikipedia.org/wiki/Dynamic_range). This is an inherent by-product of its high sensitivity, and simply means that weak IR signals can be masked by strong, unwanted, light sources.
 
 In conditions where there is low ambient light this is not a major problem, and in areas of greater illumination the issue can be mitigated by placing a shroud around the IR detector to prevent direct contact with unwated light. IR filters can also be used to reduce interference from unwanted light sources, but bear in mind that some bright light sources (e.g., the sun!) emit IR radiation as well.
 
