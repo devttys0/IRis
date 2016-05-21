@@ -36,7 +36,7 @@ encoding utf-8
 Sheet 1 1
 Title "IRis IR Detector"
 Date "04/03/2016"
-Rev "1.3"
+Rev "1.4"
 Comp "Craig Heffner, www.analogzoo.com"
 Comment1 ""
 Comment2 ""
@@ -326,7 +326,7 @@ $EndComp
 Wire Wire Line
 	3800 2250 3800 2350
 Wire Wire Line
-	5250 3300 7100 3300
+	5250 3300 6950 3300
 $Comp
 L +5V #PWR05
 U 1 1 5702DBCF
@@ -413,12 +413,12 @@ Wire Wire Line
 $Comp
 L GND #PWR09
 U 1 1 5702EDC5
-P 7700 3700
-F 0 "#PWR09" H 7700 3450 50  0001 C CNN
-F 1 "GND" H 7700 3550 50  0000 C CNN
-F 2 "" H 7700 3700 50  0000 C CNN
-F 3 "" H 7700 3700 50  0000 C CNN
-	1    7700 3700
+P 7350 3700
+F 0 "#PWR09" H 7350 3450 50  0001 C CNN
+F 1 "GND" H 7350 3550 50  0000 C CNN
+F 2 "" H 7350 3700 50  0000 C CNN
+F 3 "" H 7350 3700 50  0000 C CNN
+	1    7350 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -435,24 +435,24 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG011
 U 1 1 5702F0FB
-P 2750 3050
-F 0 "#FLG011" H 2750 3145 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 3230 50  0000 C CNN
-F 2 "" H 2750 3050 50  0000 C CNN
-F 3 "" H 2750 3050 50  0000 C CNN
-	1    2750 3050
-	1    0    0    -1  
+P 1900 3250
+F 0 "#FLG011" H 1900 3345 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 3430 50  0000 C CNN
+F 2 "" H 1900 3250 50  0000 C CNN
+F 3 "" H 1900 3250 50  0000 C CNN
+	1    1900 3250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG012
 U 1 1 5702F201
-P 2750 3800
-F 0 "#FLG012" H 2750 3895 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 3980 50  0000 C CNN
-F 2 "" H 2750 3800 50  0000 C CNN
-F 3 "" H 2750 3800 50  0000 C CNN
-	1    2750 3800
-	-1   0    0    1   
+P 1900 4000
+F 0 "#FLG012" H 1900 4095 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 4180 50  0000 C CNN
+F 2 "" H 1900 4000 50  0000 C CNN
+F 3 "" H 1900 4000 50  0000 C CNN
+	1    1900 4000
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P1
@@ -485,52 +485,52 @@ Wire Wire Line
 $Comp
 L GND #PWR014
 U 1 1 5702F645
-P 2300 3850
-F 0 "#PWR014" H 2300 3600 50  0001 C CNN
-F 1 "GND" H 2300 3700 50  0000 C CNN
-F 2 "" H 2300 3850 50  0000 C CNN
-F 3 "" H 2300 3850 50  0000 C CNN
-	1    2300 3850
-	1    0    0    -1  
+P 2350 4050
+F 0 "#PWR014" H 2350 3800 50  0001 C CNN
+F 1 "GND" H 2350 3900 50  0000 C CNN
+F 2 "" H 2350 4050 50  0000 C CNN
+F 3 "" H 2350 4050 50  0000 C CNN
+	1    2350 4050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C7
 U 1 1 5702FF22
-P 2300 3450
-F 0 "C7" H 2325 3550 50  0000 L CNN
-F 1 "10uF" H 2325 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2338 3300 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188D71A106MA73-01.pdf" H 2300 3450 50  0001 C CNN
-F 4 "Ceramic, X7T" H 2300 3450 60  0001 C CNN "Type"
-F 5 "20%" H 2300 3450 60  0001 C CNN "Tolerance"
-F 6 "Murata" H 2300 3450 60  0001 C CNN "Manufacturer"
-F 7 "GRM188D71A106MA73D" H 2300 3450 60  0001 C CNN "Manufacturer Part #"
-F 8 "Digikey" H 2300 3450 60  0001 C CNN "Supplier"
-F 9 "490-7200-1-ND" H 2300 3450 60  0001 C CNN "Supplier Part #"
-	1    2300 3450
-	1    0    0    -1  
+P 2350 3650
+F 0 "C7" H 2375 3750 50  0000 L CNN
+F 1 "10uF" H 2375 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2388 3500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188D71A106MA73-01.pdf" H 2350 3650 50  0001 C CNN
+F 4 "Ceramic, X7T" H 2350 3650 60  0001 C CNN "Type"
+F 5 "20%" H 2350 3650 60  0001 C CNN "Tolerance"
+F 6 "Murata" H 2350 3650 60  0001 C CNN "Manufacturer"
+F 7 "GRM188D71A106MA73D" H 2350 3650 60  0001 C CNN "Manufacturer Part #"
+F 8 "Digikey" H 2350 3650 60  0001 C CNN "Supplier"
+F 9 "490-7200-1-ND" H 2350 3650 60  0001 C CNN "Supplier Part #"
+	1    2350 3650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3050 2300 3300
+	2350 3250 2350 3500
 Wire Wire Line
-	2300 3600 2300 3850
+	2350 3800 2350 4050
 $Comp
 L +5V #PWR015
 U 1 1 57030488
-P 2300 3050
-F 0 "#PWR015" H 2300 2900 50  0001 C CNN
-F 1 "+5V" H 2300 3190 50  0000 C CNN
-F 2 "" H 2300 3050 50  0000 C CNN
-F 3 "" H 2300 3050 50  0000 C CNN
-	1    2300 3050
-	1    0    0    -1  
+P 2350 3250
+F 0 "#PWR015" H 2350 3100 50  0001 C CNN
+F 1 "+5V" H 2350 3390 50  0000 C CNN
+F 2 "" H 2350 3250 50  0000 C CNN
+F 3 "" H 2350 3250 50  0000 C CNN
+	1    2350 3250
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3450 3200 4650 3200
 Wire Wire Line
-	2750 3600 2750 3800
+	1900 3800 1900 4000
 Wire Wire Line
-	2750 3050 2750 3300
+	1900 3250 1900 3500
 $Comp
 L Q_NJFET_SDG Q1
 U 1 1 570FEF1C
@@ -575,25 +575,20 @@ Wire Wire Line
 $Comp
 L C C4
 U 1 1 571038BD
-P 7250 3300
-F 0 "C4" V 7100 3250 50  0000 L CNN
-F 1 "0.1uF" V 7400 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7288 3150 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7250 3300 50  0001 C CNN
-F 4 "Ceramic, X7R" H 7250 3300 60  0001 C CNN "Type"
-F 5 "10%" H 7250 3300 60  0001 C CNN "Tolerance"
-F 6 "Murata" H 7250 3300 60  0001 C CNN "Manufacturer"
-F 7 "GRM188R71E104KA01D" H 7250 3300 60  0001 C CNN "Manufacturer Part #"
-F 8 "Digikey" H 7250 3300 60  0001 C CNN "Supplier"
-F 9 "490-1524-1-ND" H 7250 3300 60  0001 C CNN "Supplier Part #"
-	1    7250 3300
+P 7100 3300
+F 0 "C4" V 6950 3250 50  0000 L CNN
+F 1 "0.1uF" V 7250 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 3150 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7100 3300 50  0001 C CNN
+F 4 "Ceramic, X7R" H 7100 3300 60  0001 C CNN "Type"
+F 5 "10%" H 7100 3300 60  0001 C CNN "Tolerance"
+F 6 "Murata" H 7100 3300 60  0001 C CNN "Manufacturer"
+F 7 "GRM188R71E104KA01D" H 7100 3300 60  0001 C CNN "Manufacturer Part #"
+F 8 "Digikey" H 7100 3300 60  0001 C CNN "Supplier"
+F 9 "490-1524-1-ND" H 7100 3300 60  0001 C CNN "Supplier Part #"
+	1    7100 3300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7400 3300 8300 3300
-Wire Wire Line
-	7700 3400 7700 3300
-Connection ~ 7700 3300
 Wire Wire Line
 	8300 3500 8100 3500
 Wire Wire Line
@@ -643,19 +638,19 @@ $EndComp
 $Comp
 L R R6
 U 1 1 571040B6
-P 7700 3550
-F 0 "R6" V 7780 3550 50  0000 C CNN
-F 1 "5.1k" V 7700 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 3550 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 7700 3550 50  0001 C CNN
-F 4 "Thick Film" V 7700 3550 60  0001 C CNN "Type"
-F 5 "1%" V 7700 3550 60  0001 C CNN "Tolerance"
-F 6 "100ppm" V 7700 3550 60  0001 C CNN "Tempco"
-F 7 "Yageo" V 7700 3550 60  0001 C CNN "Manufacturer"
-F 8 "RC0603FR-075K1L" V 7700 3550 60  0001 C CNN "Manufacturer Part #"
-F 9 "Digikey" V 7700 3550 60  0001 C CNN "Supplier"
-F 10 "311-5.10KHRCT-ND" V 7700 3550 60  0001 C CNN "Supplier Part #"
-	1    7700 3550
+P 7350 3550
+F 0 "R6" V 7430 3550 50  0000 C CNN
+F 1 "5.1k" V 7350 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7280 3550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 7350 3550 50  0001 C CNN
+F 4 "Thick Film" V 7350 3550 60  0001 C CNN "Type"
+F 5 "1%" V 7350 3550 60  0001 C CNN "Tolerance"
+F 6 "100ppm" V 7350 3550 60  0001 C CNN "Tempco"
+F 7 "Yageo" V 7350 3550 60  0001 C CNN "Manufacturer"
+F 8 "RC0603FR-075K1L" V 7350 3550 60  0001 C CNN "Manufacturer Part #"
+F 9 "Digikey" V 7350 3550 60  0001 C CNN "Supplier"
+F 10 "311-5.10KHRCT-ND" V 7350 3550 60  0001 C CNN "Supplier Part #"
+	1    7350 3550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -677,10 +672,10 @@ F 10 "311-10.0HRCT-ND" V 8500 2600 60  0001 C CNN "Supplier Part #"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L R R11
 U 1 1 57111167
 P 9350 3400
-F 0 "R10" V 9430 3400 50  0000 C CNN
+F 0 "R11" V 9430 3400 50  0000 C CNN
 F 1 "100" V 9350 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9280 3400 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 9350 3400 50  0001 C CNN
@@ -697,26 +692,26 @@ $EndComp
 $Comp
 L Battery BT1
 U 1 1 5711A512
-P 2750 3450
-F 0 "BT1" H 2850 3500 50  0000 L CNN
-F 1 "3v" H 2850 3400 50  0000 L CNN
-F 2 "CR2032:MPD BH32T-C" V 2750 3490 50  0001 C CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BH32T-C-datasheet.pdf" V 2750 3490 50  0001 C CNN
-F 4 "MPD" H 2750 3450 60  0001 C CNN "Manufacturer"
-F 5 "BH32T-C" H 2750 3450 60  0001 C CNN "Manufacturer Part #"
-F 6 "Digikey" H 2750 3450 60  0001 C CNN "Supplier"
-F 7 "BH32T-C-ND" H 2750 3450 60  0001 C CNN "Supplier Part #"
-	1    2750 3450
-	1    0    0    -1  
+P 1900 3650
+F 0 "BT1" H 2000 3650 50  0000 L CNN
+F 1 "3v" H 2000 3600 50  0001 L CNN
+F 2 "CR2032:MPD BH32T-C" V 1900 3690 50  0001 C CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BH32T-C-datasheet.pdf" V 1900 3690 50  0001 C CNN
+F 4 "MPD" H 1900 3650 60  0001 C CNN "Manufacturer"
+F 5 "BH32T-C" H 1900 3650 60  0001 C CNN "Manufacturer Part #"
+F 6 "Digikey" H 1900 3650 60  0001 C CNN "Supplier"
+F 7 "BH32T-C-ND" H 1900 3650 60  0001 C CNN "Supplier Part #"
+	1    1900 3650
+	-1   0    0    -1  
 $EndComp
-Connection ~ 2750 3200
-Connection ~ 2750 3700
+Connection ~ 1900 3400
+Connection ~ 1900 3900
 Wire Wire Line
-	2750 3200 2300 3200
-Connection ~ 2300 3200
+	1900 3400 2350 3400
+Connection ~ 2350 3400
 Wire Wire Line
-	2750 3700 2300 3700
-Connection ~ 2300 3700
+	1900 3900 2350 3900
+Connection ~ 2350 3900
 Wire Wire Line
 	5950 3950 5850 3950
 Wire Wire Line
@@ -788,4 +783,58 @@ F 7 "MMBF4117CT-ND" H 6050 4150 60  0001 C CNN "Supplier Part #"
 	1    6050 4150
 	-1   0    0    1   
 $EndComp
+$Comp
+L R R10
+U 1 1 5740E09B
+P 7600 3300
+F 0 "R10" V 7680 3300 50  0000 C CNN
+F 1 "5.1k" V 7600 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7530 3300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 7600 3300 50  0001 C CNN
+F 4 "Thick Film" V 7600 3300 60  0001 C CNN "Type"
+F 5 "1%" V 7600 3300 60  0001 C CNN "Tolerance"
+F 6 "100ppm" V 7600 3300 60  0001 C CNN "Tempco"
+F 7 "Yageo" V 7600 3300 60  0001 C CNN "Manufacturer"
+F 8 "RC0603FR-075K1L" V 7600 3300 60  0001 C CNN "Manufacturer Part #"
+F 9 "Digikey" V 7600 3300 60  0001 C CNN "Supplier"
+F 10 "311-5.10KHRCT-ND" V 7600 3300 60  0001 C CNN "Supplier Part #"
+	1    7600 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 5740E0EF
+P 7850 3550
+F 0 "D2" H 7850 3650 50  0000 C CNN
+F 1 "MBR0520" H 7850 3450 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 7850 3550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF" H 7850 3550 50  0001 C CNN
+F 4 "ON Semiconductor" H 7850 3550 60  0001 C CNN "Manufacturer"
+F 5 "MBR0520LT1G" H 7850 3550 60  0001 C CNN "Manufacturer Part #"
+F 6 "Digikey" H 7850 3550 60  0001 C CNN "Supplier"
+F 7 "MBR0520LT1GOSCT-ND" H 7850 3550 60  0001 C CNN "Supplier Part #"
+	1    7850 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3300 7450 3300
+Wire Wire Line
+	7750 3300 8300 3300
+Wire Wire Line
+	7850 3400 7850 3300
+Connection ~ 7850 3300
+$Comp
+L GND #PWR019
+U 1 1 5740E56B
+P 7850 3700
+F 0 "#PWR019" H 7850 3450 50  0001 C CNN
+F 1 "GND" H 7850 3550 50  0000 C CNN
+F 2 "" H 7850 3700 50  0000 C CNN
+F 3 "" H 7850 3700 50  0000 C CNN
+	1    7850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3400 7350 3300
+Connection ~ 7350 3300
 $EndSCHEMATC
