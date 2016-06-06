@@ -571,7 +571,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 4350 4650 4350
 Wire Wire Line
-	9200 3400 8900 3400
+	8900 3400 9200 3400
 $Comp
 L C C4
 U 1 1 571038BD
@@ -821,7 +821,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3300 8300 3300
 Wire Wire Line
-	7850 3400 7850 3300
+	7850 1900 7850 3400
 Connection ~ 7850 3300
 $Comp
 L GND #PWR019
@@ -837,4 +837,29 @@ $EndComp
 Wire Wire Line
 	7350 3400 7350 3300
 Connection ~ 7350 3300
+$Comp
+L R R12
+U 1 1 5751C04B
+P 8450 1900
+F 0 "R12" V 8350 1900 50  0000 C CNN
+F 1 "680k" V 8450 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8380 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 8450 1900 50  0001 C CNN
+F 4 "Thick Film" V 8450 1900 60  0001 C CNN "Type"
+F 5 "1%" V 8450 1900 60  0001 C CNN "Tolerance"
+F 6 "100ppm" V 8450 1900 60  0001 C CNN "Tempco"
+F 7 "Yageo" V 8450 1900 60  0001 C CNN "Manufacturer"
+F 8 "RC0603FR-07680KL" V 8450 1900 60  0001 C CNN "Manufacturer Part #"
+F 9 "Digikey" V 8450 1900 60  0001 C CNN "Supplier"
+F 10 "311-680KHRCT-ND" V 8450 1900 60  0001 C CNN "Supplier Part #"
+	1    8450 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 1900 7850 1900
+Wire Wire Line
+	8600 1900 9050 1900
+Wire Wire Line
+	9050 1900 9050 3400
+Connection ~ 9050 3400
 $EndSCHEMATC
