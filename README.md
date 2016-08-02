@@ -8,12 +8,7 @@ Why?
 
 Typical [IR](https://www.sparkfun.com/products/10266) [receivers](http://dangerousprototypes.com/docs/USB_IR_Toy_v2) are designed to work with common IR remote controls, and as such they ignore any IR signals that are not [modulated at 36-38kHz](http://www.vishay.com/docs/80071/dataform.pdf). But there is so much more to the world of IR than this!
 
-In contrast, IRis was designed to be a simple, general purpose IR detector to aid in the capture and analysis of raw IR transmissions from a variety of sources, such as:
-
- * IR remote controls
- * Cell phone proximity sensors 
- * Traffic signal preemption systems
- * Close range digital transmissions
+In contrast, IRis was designed to be a simple, general purpose IR detector to aid in the capture and analysis of raw IR transmissions, in particular low data rate signals such as those emitted by chell phone proximity sensors.
 
 Who?
 ====
