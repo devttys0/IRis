@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:IRis-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -553,16 +552,16 @@ L R R5
 U 1 1 570FF62F
 P 6500 4150
 F 0 "R5" V 6580 4150 50  0000 C CNN
-F 1 "100" V 6500 4150 50  0000 C CNN
+F 1 "0" V 6500 4150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6430 4150 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 6500 4150 50  0001 C CNN
 F 4 "Thick Film" V 6500 4150 60  0001 C CNN "Type"
 F 5 "1%" V 6500 4150 60  0001 C CNN "Tolerance"
 F 6 "100ppm" V 6500 4150 60  0001 C CNN "Tempco"
 F 7 "Yageo" V 6500 4150 60  0001 C CNN "Manufacturer"
-F 8 "RC0603FR-07100RL" V 6500 4150 60  0001 C CNN "Manufacturer Part #"
+F 8 "RC0603JR-070RL" V 6500 4150 60  0001 C CNN "Manufacturer Part #"
 F 9 "Digikey" V 6500 4150 60  0001 C CNN "Supplier"
-F 10 "311-100HRCT-ND" V 6500 4150 60  0001 C CNN "Supplier Part #"
+F 10 "311-0.0GRCT-ND" V 6500 4150 60  0001 C CNN "Supplier Part #"
 	1    6500 4150
 	0    -1   -1   0   
 $EndComp
