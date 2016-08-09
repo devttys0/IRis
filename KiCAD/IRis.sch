@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:IRis-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -734,7 +735,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4150 6800 4150
 Wire Wire Line
-	6800 3300 6800 5200
+	6800 2950 6800 5200
 Connection ~ 6800 3300
 Connection ~ 6800 4150
 Wire Wire Line
@@ -834,7 +835,7 @@ F 3 "" H 7850 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 3400 7350 3300
+	7350 2950 7350 3400
 Connection ~ 7350 3300
 $Comp
 L R R12
@@ -861,4 +862,26 @@ Wire Wire Line
 Wire Wire Line
 	9050 1900 9050 3400
 Connection ~ 9050 3400
+$Comp
+L CONN_01X01 TP1
+U 1 1 57AA6150
+P 6800 2750
+F 0 "TP1" V 6900 2750 50  0000 C CNN
+F 1 "Test Point #1" V 6900 2750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6800 2750 50  0001 C CNN
+F 3 "" H 6800 2750 50  0000 C CNN
+	1    6800 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 TP2
+U 1 1 57AA6595
+P 7350 2750
+F 0 "TP2" V 7450 2750 50  0000 C CNN
+F 1 "Test Point #2" V 7450 2750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 7350 2750 50  0001 C CNN
+F 3 "" H 7350 2750 50  0000 C CNN
+	1    7350 2750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
